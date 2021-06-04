@@ -1,0 +1,75 @@
+body
+{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    min-height: 100vh;
+    margin: 0;
+    flex-wrap: wrap;
+    font-family: "Poppins", cursive;
+    background-color: #f1f5f8;
+
+}
+
+#display {
+    font-size: 25px;
+    border-bottom: 1px solid #222;
+    width: 100%;
+}
+
+
+button {
+    font-size: 18px;
+    font-family: inherit;
+    height: 50px;
+    width: 50px;
+    outline: none;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 1px solid #222;
+    margin: 6.5px;
+}
+
+#calculator {
+    border: 2px solid #222;
+    background-color: rgb(72, 72, 219);
+    padding: 20px;
+    color: white;
+}
+
+.btn {
+    background-color: rebeccapurple;
+    color: white;
+}
+
+.operator {
+    background-color: #222;
+    color: white;
+}
+
+#equals {
+    background-color: rgb(72, 240, 72);
+    color: white;
+}
+
+#clear {
+    background-color: rgb(228, 74, 74);
+    color: white;
+}
+
+#delete {
+    background-color: rgb(94, 36, 36);
+    color: white;
+}
+
+#decimal {
+    background-color: rgb(198, 209, 46);
+    color: white;
+}
+
+#negate {
+    background-color: rgb(233, 145, 160);
+    color: white;
+}
