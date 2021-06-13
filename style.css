@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;400;700&display=swap');
+
 body
 {
     flex-direction: column;
@@ -8,7 +10,7 @@ body
     min-height: 100vh;
     margin: 0;
     flex-wrap: wrap;
-    font-family: "Poppins", cursive;
+    font-family: 'Noto Sans JP', sans-serif;
     background-color: #f1f5f8;
 
 }
